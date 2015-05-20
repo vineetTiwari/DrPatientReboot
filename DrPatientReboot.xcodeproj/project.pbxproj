@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		967D71221B0C45E600A02EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967D71211B0C45E600A02EF0 /* main.m */; };
+		967D712A1B0C464600A02EF0 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 967D71291B0C464600A02EF0 /* Doctor.m */; };
+		967D712D1B0C465200A02EF0 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 967D712C1B0C465200A02EF0 /* Patient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		967D711E1B0C45E600A02EF0 /* DrPatientReboot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DrPatientReboot; sourceTree = BUILT_PRODUCTS_DIR; };
 		967D71211B0C45E600A02EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		967D71281B0C464600A02EF0 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		967D71291B0C464600A02EF0 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		967D712B1B0C465200A02EF0 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		967D712C1B0C465200A02EF0 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				967D71211B0C45E600A02EF0 /* main.m */,
+				967D71281B0C464600A02EF0 /* Doctor.h */,
+				967D71291B0C464600A02EF0 /* Doctor.m */,
+				967D712B1B0C465200A02EF0 /* Patient.h */,
+				967D712C1B0C465200A02EF0 /* Patient.m */,
 			);
 			path = DrPatientReboot;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967D712D1B0C465200A02EF0 /* Patient.m in Sources */,
+				967D712A1B0C464600A02EF0 /* Doctor.m in Sources */,
 				967D71221B0C45E600A02EF0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
